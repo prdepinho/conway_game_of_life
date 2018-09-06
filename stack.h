@@ -36,8 +36,8 @@ int Stack_Delete(Stack *stack);
 void Stack_Push(Stack *stack, void *value);
 
 /*
- * Removes the top element of the stack, the returned pointer must be 
- * type-casted to be used.
+ * Removes the top element from the stack. The returned pointer must be 
+ * type-cast to be used.
  */
 void* Stack_Pop(Stack *stack);
 

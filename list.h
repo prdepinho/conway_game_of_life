@@ -45,7 +45,7 @@ Element* Element_Create(void *object);
 
 /*
  * Returns the pointer to the value of the element.
- * Since it is a void pointer, it must be casted to the original value
+ * Since it is a void pointer, it must be cast to the original value
  * the it was pointing to in order to be used.
  */
 void* Element_Get(Element *element);
@@ -73,9 +73,9 @@ int List_Delete(List *list);
  * The 'origin' element must be in the list, if it exists in another list, 
  * it will result in the cursor to point to an element of that foreign list; 
  * if the element is in no list at all, the result is unknown.
- * That be said, if the 'origin' is NULL, it will move the cursor starting
+ * If the 'origin' is NULL, it will move the cursor starting
  * from it's own position, though. 
- * If the list has one or less elements, theres no room to the cursor
+ * If the list has one or less elements, there is no room to the cursor
  * to move, it returns -1 instead.
  */
 int List_MoveCursor(List *list, int offset, Element *origin);
@@ -106,9 +106,9 @@ Element* List_Get(List *list);
 
 /*
  * Inserts an element to the list in order.
- * The comparation that shal be made between the elements is
+ * The comparison that will be made between the elements is
  * specified by the function pointer.
- * The return value of the comparation function must return 0 if
+ * The return value of the comparison function must return 0 if
  * the elements are equal, negative if elm_1 < elm_2 and
  * positive if elm_1 > elm_2.
  */

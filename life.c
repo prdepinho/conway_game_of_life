@@ -321,8 +321,8 @@ int Read_Body(struct Board *board, struct Player* player, FILE *file)
 int Init_Gui(void)
 {
 	initscr();	/*inits ncurses*/
-	raw();		/*dont need to press ENTER to input a char*/
-	noecho();	/*dont print back the input char*/
+	raw();		/*don't need to press ENTER to input a char*/
+	noecho();	/*don't print back the input char*/
 	start_color();	/*set color handling*/
 	init_pair(RED_BLACK, COLOR_RED, COLOR_BLACK);
 	init_pair(BLUE_BLACK, COLOR_BLUE, COLOR_BLACK);

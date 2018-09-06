@@ -8,6 +8,7 @@
 #include <unistd.h>	/*to use the sleep function*/
 #include <string.h>	/*to handle the board files*/
 #include <ncurses.h>	/*gui for the game*/
+#include <time.h>   /* time function */
 #include "stack.h"	/*to use a home-brew stack structure*/
 
 /*
@@ -120,7 +121,7 @@ void Print_Board(struct Board *board, struct Player* player);
 int Update_Cells(struct Board *board);
 
 /*
- * Checks if the cell at the co-ordenates x and y is lonely or
+ * Checks if the cell at the co-ordinates x and y is lonely or
  * crowded and pushes it to the global stack of death for further
  * sentence. If the cell was dead and can be reanimated, it
  * is sent to the global stack of life, instead.
