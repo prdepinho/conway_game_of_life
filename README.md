@@ -6,12 +6,12 @@ studying C and data structures.
 
 While dynamically allocated data structures are not ideal for performance,
 or even necessary in the case of this project, I wanted to implement my
-own data structures both for the sake of grades and self-satisfaction. 
+own both for the sake of grades and self-satisfaction. 
 
 The GLib influence is clear in the design of the data structures, which
 gives them a quasi object-oriented paradigm.
 
-This game depends on ncurses and should compile and run on most unix-like
+This game depends on ncurses and should compile and should run on most unix-like
 systems.
 
 ## How to start the game:
