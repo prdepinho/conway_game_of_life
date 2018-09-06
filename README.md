@@ -1,6 +1,19 @@
 
 # Adventures in Conwey's Game of Life.
 
+I developed this game in 2008, if I am not mistaken, in college when I was
+studying C and data structures.
+
+While dynamically allocated data structures are not ideal for performance,
+or even necessary in the case of this project, I wanted to implement my
+own data structures both for the sake of grades and self-satisfaction. 
+
+The GLib influence is clear in the design of the data structures, which
+gives them a quasi object-oriented paradigm.
+
+This game depends on ncurses and should compile and run on most unix-like
+systems.
+
 ## How to start the game:
 
 To start the game, input this on the terminal:
