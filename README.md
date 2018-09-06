@@ -63,6 +63,7 @@ And that's all, have fun.
 
 Create a text file in the following format:
 
+```
 10
 15
 50
@@ -81,6 +82,7 @@ Create a text file in the following format:
 . . . . . . . . . .
 . . . . . . . . . .
 . . . . . . . . . .
+```
 
 The first number is the width of the board.
 
